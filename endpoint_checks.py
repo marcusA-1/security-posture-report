@@ -1,18 +1,3 @@
-"""
-endpoint_checks.py
--------------------
-Checks against the endpoint (Intune-style) compliance export.
-
-Each function receives `devices`: a list of dicts, one per device, with keys:
-    DeviceName, Owner, ComplianceState ("Compliant"/"Noncompliant"),
-    OSVersion, BitLockerEnabled ("TRUE"/"FALSE"), LastCheckIn (YYYY-MM-DD)
-
-Each function should return a list of dicts describing the devices that
-triggered the check.
-
-See SPEC.md for exact rules for each check.
-"""
-
 from datetime import datetime
 
 

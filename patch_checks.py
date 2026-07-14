@@ -1,17 +1,3 @@
-"""
-patch_checks.py
------------------
-Checks against the WSUS-style patch status export.
-
-Each function receives `patch_rows`: a list of dicts, one per device, with keys:
-    DeviceName, MissingCriticalPatches (int), LastPatchScan (YYYY-MM-DD)
-
-Each function should return a list of dicts describing the devices that
-triggered the check.
-
-See SPEC.md for exact rules for each check.
-"""
-
 from datetime import datetime
 
 

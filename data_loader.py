@@ -1,11 +1,3 @@
-"""
-data_loader.py
----------------
-Plumbing: just reads the CSV exports into lists of dicts.
-You shouldn't need to change this -- your check functions receive
-the output of these functions directly.
-"""
-
 import csv
 
 

@@ -1,12 +1,3 @@
-"""
-report.py
-----------
-Plumbing: formats findings + risk score into a readable console report.
-Already working -- you shouldn't need to touch this to get the project
-running, but improving it (e.g. adding an HTML export) is a good stretch
-goal once the checks and scoring are done.
-"""
-
 CATEGORY_LABELS = {
     "stale_accounts": "Stale (but enabled) accounts",
     "non_expiring_passwords": "Accounts with non-expiring passwords",
