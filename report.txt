@@ -1,0 +1,90 @@
+============================================================
+SECURITY POSTURE REPORT
+============================================================
+
+Total findings: 67
+Overall risk score: 493
+  High: 40  Medium: 27  Low: 0
+
+--- Stale (but enabled) accounts (14) ---
+  - user001 (Manufacturing) — last logon 2026-03-14
+  - user004 (Glazerite Sales) — last logon 2025-12-24
+  - user005 (Emplas) — last logon 2025-12-24
+  - user007 (HR) — last logon 2026-03-14
+  - user008 (Emplas) — last logon 2025-06-07
+  - user014 (HR) — last logon 2026-04-08
+  - user015 (Glazerite Sales) — last logon 2026-03-14
+  - user016 (Emplas) — last logon 2026-04-08
+  - user017 (Manufacturing) — last logon 2025-12-24
+  - user027 (Glazerite Sales) — last logon 2025-06-07
+  - user029 (Glazerite Sales) — last logon 2026-04-08
+  - user031 (Glazerite Sales) — last logon 2025-12-24
+  - user037 (Emplas) — last logon 2025-12-24
+  - user039 (Finance) — last logon 2025-12-24
+
+--- Accounts with non-expiring passwords (8) ---
+  - user000 (Finance) — last logon 2026-06-27
+  - user005 (Emplas) — last logon 2025-12-24
+  - user014 (HR) — last logon 2026-04-08
+  - user019 (Finance) — last logon 2026-07-10
+  - user027 (Glazerite Sales) — last logon 2025-06-07
+  - user028 (Glazerite Sales) — last logon 2026-07-09
+  - user035 (HR) — last logon 2026-07-10
+  - user039 (Finance) — last logon 2025-12-24
+
+--- Privileged accounts without MFA (3) ---
+  - user000 (Finance) — last logon 2026-06-27
+  - user013 (Manufacturing) — last logon 2026-07-10
+  - user026 (Manufacturing) — last logon 2026-06-02
+
+--- Noncompliant devices (7) ---
+  - DEVICE-016 (owner: user011) — last check-in 2026-04-13
+  - DEVICE-017 (owner: user025) — last check-in 2026-05-28
+  - DEVICE-019 (owner: user037) — last check-in 2026-05-28
+  - DEVICE-024 (owner: user034) — last check-in 2026-05-28
+  - DEVICE-025 (owner: user022) — last check-in 2026-04-13
+  - DEVICE-030 (owner: user033) — last check-in 2026-07-11
+  - DEVICE-034 (owner: user034) — last check-in 2026-05-28
+
+--- Devices without disk encryption (9) ---
+  - DEVICE-001 (owner: user007) — last check-in 2026-07-07
+  - DEVICE-008 (owner: user014) — last check-in 2026-05-28
+  - DEVICE-009 (owner: user014) — last check-in 2026-07-10
+  - DEVICE-010 (owner: user001) — last check-in 2026-07-10
+  - DEVICE-013 (owner: user012) — last check-in 2026-06-22
+  - DEVICE-019 (owner: user037) — last check-in 2026-05-28
+  - DEVICE-025 (owner: user022) — last check-in 2026-04-13
+  - DEVICE-032 (owner: user028) — last check-in 2026-07-10
+  - DEVICE-033 (owner: user039) — last check-in 2026-06-22
+
+--- Devices with stale check-ins (10) ---
+  - DEVICE-005 (owner: user034) — last check-in 2026-05-28
+  - DEVICE-007 (owner: user022) — last check-in 2026-05-28
+  - DEVICE-008 (owner: user014) — last check-in 2026-05-28
+  - DEVICE-014 (owner: user039) — last check-in 2026-04-13
+  - DEVICE-016 (owner: user011) — last check-in 2026-04-13
+  - DEVICE-017 (owner: user025) — last check-in 2026-05-28
+  - DEVICE-019 (owner: user037) — last check-in 2026-05-28
+  - DEVICE-024 (owner: user034) — last check-in 2026-05-28
+  - DEVICE-025 (owner: user022) — last check-in 2026-04-13
+  - DEVICE-034 (owner: user034) — last check-in 2026-05-28
+
+--- Devices with overdue critical patches (7) ---
+  - DEVICE-004 — 12 missing critical patches (last scanned 2026-07-09)
+  - DEVICE-012 — 12 missing critical patches (last scanned 2026-07-11)
+  - DEVICE-014 — 12 missing critical patches (last scanned 2026-07-11)
+  - DEVICE-016 — 7 missing critical patches (last scanned 2026-06-12)
+  - DEVICE-017 — 7 missing critical patches (last scanned 2026-07-09)
+  - DEVICE-018 — 7 missing critical patches (last scanned 2026-07-11)
+  - DEVICE-023 — 12 missing critical patches (last scanned 2026-07-02)
+
+--- Devices with stale patch scans (9) ---
+  - DEVICE-000 — 2 missing critical patches (last scanned 2026-06-12)
+  - DEVICE-005 — 0 missing critical patches (last scanned 2026-05-13)
+  - DEVICE-009 — 0 missing critical patches (last scanned 2026-05-13)
+  - DEVICE-016 — 7 missing critical patches (last scanned 2026-06-12)
+  - DEVICE-020 — 0 missing critical patches (last scanned 2026-05-13)
+  - DEVICE-022 — 3 missing critical patches (last scanned 2026-06-12)
+  - DEVICE-025 — 3 missing critical patches (last scanned 2026-06-12)
+  - DEVICE-026 — 2 missing critical patches (last scanned 2026-06-12)
+  - DEVICE-034 — 0 missing critical patches (last scanned 2026-06-12)
